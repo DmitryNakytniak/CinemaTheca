@@ -29,5 +29,6 @@ namespace CinemaTheca.DAL.Entities
         public IDictionary<string, FilmPersonProfile> Characters { get; set; }
         public ICollection<int> Votes { get; set; }
         public ICollection<string> Frames { get; set; }
+        public ICollection<ClientProfile> InFavorites { get; set; }
     }
 }

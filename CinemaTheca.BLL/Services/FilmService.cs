@@ -38,7 +38,8 @@ namespace CinemaTheca.BLL.Services
                     Premiere = filmDto.Premiere,
                     Producer = filmDto.Producer,
                     Scenario = filmDto.Scenario,
-                    Year = filmDto.Year
+                    Year = filmDto.Year,
+                    InFavorites = filmDto.InFavorites
                 };
 
                 DataBase.Films.InsertOrUpdate(film);

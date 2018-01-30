@@ -15,5 +15,6 @@ namespace CinemaTheca.BLL.DTO
         public IDictionary<string, Film> Films { get; set; }
         public ICollection<string> Photos { get; set; }
         public ICollection<string> SocialNetworks { get; set; }
+        public ICollection<ClientProfile> InFavorites { get; set; }
     }
 }

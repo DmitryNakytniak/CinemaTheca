@@ -34,7 +34,8 @@ namespace CinemaTheca.BLL.Services
                     Name = filmPersonDto.Name,
                     Photos = filmPersonDto.Photos,
                     ProfilePhoto = filmPersonDto.ProfilePhoto,
-                    SocialNetworks = filmPersonDto.SocialNetworks
+                    SocialNetworks = filmPersonDto.SocialNetworks,
+                    InFavorites = filmPersonDto.InFavorites
                 };
                 DataBase.FilmPeople.InsertOrUpdate(personProfile);
                 await DataBase.SaveAsync();

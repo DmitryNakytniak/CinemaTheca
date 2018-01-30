@@ -14,8 +14,8 @@ namespace CinemaTheca.DAL.Entities
         public DateTime? BirthDay { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
-        public List<Film> FavouriteFilms { get; set; }
-        public List<FilmPersonProfile> FavouriteStars { get; set; }
+        public List<Film> FavoriteFilms { get; set; }
+        public List<FilmPersonProfile> FavoriteStars { get; set; }
         public virtual ApplicationUser ApplicationUser { get; set; }
     }
 }
